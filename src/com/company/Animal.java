@@ -39,4 +39,13 @@ public abstract class Animal {
     public void setWight(int wight) {
         this.wight = wight;
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", wight=" + wight +
+                '}';
+    }
 }
